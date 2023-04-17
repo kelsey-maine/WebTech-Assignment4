@@ -1,0 +1,80 @@
+<html lang="en-US">
+	<head>
+		<title>Courses</title>
+	</head>
+	<body>
+		<h1>Courses Taken</h1>
+		<a href="index.php">Home</a>
+		<hr>
+		<table>
+			<tr>
+				<th>Course Name</th>
+				<th>Course Number</th>
+				<th>Description</th>
+				<th>Final Grade</th>
+			</tr>
+			<tr>
+			        <td>Computer Programming II</td>
+			        <td>CS 1713</td>
+			        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vestibulum morbi blandit cursus risus at ultrices mi. Ut pharetra sit amet aliquam id diam maecenas ultricies mi.</td>
+			        <td>B+</td>
+			</tr>
+			<tr>
+			        <td>Data Structures</td>
+			        <td>CS 2123</td>
+			        <td>Lorem ipsum dolor sit amet, consectetur ased do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vestibulum morbi blandit cursus risus at ultrices mi. Ut pharetra sit amet aliquam id diam maecenas ultricies mi.</td>
+			        <td>A</td>
+			</tr>
+			<tr>
+				<td>Analysis of Algorithms</td>
+				<td>CS 3343</td>
+				<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vestibulum morbi blandit cursus risus at ultrices mi. Ut pharetra sit amet aliquam id diam maecenas ultricies mi.</td>
+				<td>A</td>
+			</tr>
+			<tr>
+				<td>User Interfaces</td>
+				<td>CS 4393</td>
+				<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vestibulum morbt cursus risus at ultrices mi. Ut pharetra sit amet aliquam id diam maecenas ultricies mi.</td>
+				<td>A-</td>
+			</tr>
+			<tr>
+				<td>Software Engineering</td>
+				<td>CS 3773</td>
+				<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temdidunt ut labore et dolore magna aliqua. Vestibulum morbi blandit cursuat ultrices mi. Ut pharetra sit amet aliquam id diam maecenas ultricies mi.</td>
+				<td>B</td>
+			</tr>
+		</table>
+		<hr>
+		<h2>Add a Course</h2>
+		<form>
+			<div>
+				<label for="course_name">Course Name</label>
+				<input type="text" id="course_name" name="course_name">
+			</div>
+			<br>
+			<div>
+				<label for="course_number">Course Number</label>
+				<input type="text" id="course_number" name="course_number">     
+			</div>
+			<br>
+			<div>
+				<label for="description">Description</label>
+				<textarea id="description" name="description" rows="5" cols="30"></textarea>
+			</div>
+			<br>
+			<div>
+				<label for="final_grade">Final Grade</label>
+				<input type="text" id="final_grade" name="final_grade">
+			</div>
+			<br>
+			<div>
+				<label for="curr_enrolled">Currently Enrolled?</label>
+				<input type="checkbox" id="curr_enrolled" name="curr_enrolled" value="1">
+			</div>
+			<br>
+			<div>
+				<input type="submit" value="Add Course">
+			</div>
+		</form>
+	</body>
+</html>
